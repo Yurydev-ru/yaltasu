@@ -1,0 +1,15 @@
+@use 'sass:map';
+@use 'breakpoints' as bp;
+
+@function breakpoint($key) {
+	@if map.has-key(bp.$breakpoints, $key) {
+		@return map.get(bp.$breakpoints, $key);
+	}
+
+	@error "❌ Брейкпоинт '#{$key}' не найден!";
+}
+
+$rem-base: 4px;
+@function rem($px) {
+	@return ($px / $rem-base) * 1rem;
+}
