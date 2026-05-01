@@ -1,9 +1,15 @@
 body {
 	background-color: var(--black-600);
 	height: 100dvh;
+	font-family: 'Manrope';
+	font-size: 1rem;
 }
 
 .app-header,
 .app-footer {
-	background: var(--black-600);
+	z-index: 10;
+	background: var(--bg-surface);
+	&__content {
+		padding: 8.5px 0;
+	}
 }

@@ -4,8 +4,8 @@
 
 <template>
 	<header class="app-header">
-		<div class="content">
-			<h2>HEAD</h2>
+		<div class="app-header__content content">
+			<UiLogo />
 		</div>
 	</header>
 </template>

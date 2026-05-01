@@ -1,4 +1,6 @@
 .content {
 	width: calc(100% - 1.2rem);
 	margin-inline: auto;
+	display: flex;
+	justify-content: space-between;
 }

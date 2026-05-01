@@ -1,6 +1,7 @@
 @use '../abstracts' as *;
 
 .app-wrapper {
+	position: relative;
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: 67px 1fr 67px;
